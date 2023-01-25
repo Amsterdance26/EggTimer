@@ -15,7 +15,7 @@ class ViewController: UIViewController {
     let hardTime = 12
 
     @IBAction func hardnessSelected(_ sender: UIButton) {
-        let hardness = sender.currentTitle
+        let hardness = sender.currentTitl
         if softTime == 5 {
             print("5")
             }
